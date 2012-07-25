@@ -1,0 +1,22 @@
+auto: true
+pygments: true
+
+url: http://decoupledCMS.org
+title: Decoupling Content Management
+description: Decoupling Content Management
+language: en-US
+
+author: Lukas Kahwe Smith
+email: smith@pooteeweet.org
+github: lsmith77
+twitter: lsmith
+
+permalink: /post/:title.html
+
+future: false
+auto: true
+server: true
+
+sitemap: ["/index.html"]
+
+exclude: ["README.md", "config.rb"]
