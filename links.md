@@ -5,7 +5,7 @@ title: Further Reading
 
 # Links
 
-## web editing components
+## Web editing components
 
 *   [create.js][1]
 *   [VIE.js][2]
@@ -13,13 +13,13 @@ title: Further Reading
 *   [Aloha Editor][4]
 *   [Backbone.js][5]
 
-## content repositories
+## Content repositories
 
 *   [JCR][6]
 *   [CMIS][7]
 *   [PHPCR][8]
 
-## other
+## Other
 
 *   [RDFa][9]
 *   [Stanbol][9]
