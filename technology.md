@@ -86,15 +86,17 @@ features can be shared. Consider for example:
 All of these would be quite hard to implement by an individual CMS project. But if we have a common JS layer available,
 the effort can be shared by all CMS projects implementing these ideas.
 
+In the same way once a CMS is using a content repository it suddenly becomes possible to collaborate on its
+implementation with other projects, thereby increasing the choices for users and reducing the required development
+resources from each project.
+
+## History
+
 There have been prior efforts at doing something similar. In the early 2000s, [OSCOM][25] made the [Twingle tool][26]
 that was able to edit and save content with multiple CMSs. Then there was the [Atom Publishing Protocol][27] and the
 [Neutrol Protocol][28] efforts, and also [CMIS][29]. But all of these mandated that the systems would have to implement
 some particular server-side protocol. The advantage of the approach promoted here is that the only server-side change
 needed is adding RDFa annotations to HTML templates, and then the rest happens on JavaScript level.
-
-In the same way once a CMS is using a content repository it suddenly becomes possible to collaborate on its
-implementation with other projects, thereby increasing the choices for users and reducing the required development
-resources from each project.
 
  [1]: http://phpcr.github.com
  [2]: http://jackrabbit.apache.org/
