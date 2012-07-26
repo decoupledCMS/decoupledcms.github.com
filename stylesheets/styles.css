@@ -101,6 +101,10 @@ header {
   position:fixed;
 }
 
+header p {
+  text-align: justify
+}
+
 header ul {
   list-style:none;
   height:40px;
@@ -182,6 +186,10 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+}
+
+footer p {
+    text-align: justify
 }
 
 @media print, screen and (max-width: 960px) {
