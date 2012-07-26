@@ -122,10 +122,13 @@ header ul {
 }
 
 header li {
-  width:64px;
+  padding-top:7px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
   float:left;
   border-right:1px solid #d2d2d2;
-  height:40px;
+  height:28px;
 }
 
 header ul a {
@@ -144,13 +147,11 @@ strong {
 }
 
 header ul li + li {
-  width:63px;
   border-left:1px solid #fff;
 }
 
 header ul li + li + li {
   border-right:none;
-  width:64px;
 }
 
 header ul a strong {
