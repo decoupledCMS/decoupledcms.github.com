@@ -3,8 +3,6 @@ layout: front
 title: Decoupling Content Management
 ---
 
-[Permalink](http://bergie.iki.fi/blog/decoupling_content_management/ "Permalink to Decoupling Content Management - Henri Bergius")
-
 # Decoupling Content Management
 
 Traditional content management systems are monolithic beasts. Just to make your website editable you need to accept the web framework imposed by the system, the templating engine used by the system, and the editing tools used by the system. Want to have a better user interface? Be prepared to rewrite your whole website, and to the pain of having to migrate content between different storage systems.
