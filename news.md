@@ -6,8 +6,11 @@ title: News
 # News
 
 {% for post in site.posts %}
+### [{{ post.title }}]({{ post.url }})
 
-## {{ post.title }}
-{{ post.content }}
+{{ post.content | strip_html | truncatewords: 75 }}
 
+[Read More]({{ post.url }})
+
+---
 {% endfor %}

@@ -6,7 +6,7 @@ title: Decoupling Content Management
 description: The concept of the decoupled CMS envisions a clean separation in web editing UIs, web frameworks and content repositories
 language: en-US
 
-permalink: /news/:title.html
+permalink: /news/:year-:month-:day-:title.html
 
 future: false
 auto: true
