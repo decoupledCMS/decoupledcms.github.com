@@ -3,15 +3,10 @@ pygments: true
 
 url: http://decoupledCMS.org
 title: Decoupling Content Management
-description: Decoupling Content Management
+description: The concept of the decoupled CMS envisions a clean separation in web editing UIs, web frameworks and content repositories
 language: en-US
 
-author: Lukas Kahwe Smith
-email: smith@pooteeweet.org
-github: lsmith77
-twitter: lsmith
-
-permalink: /post/:title.html
+permalink: /news/:title.html
 
 future: false
 auto: true
@@ -19,4 +14,4 @@ server: true
 
 sitemap: ["/index.html"]
 
-exclude: ["README.md", "config.rb"]
+exclude: ["README.md"]
