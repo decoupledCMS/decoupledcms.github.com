@@ -56,6 +56,22 @@ implementation][21] of communicating with the server with JSON, but it can be ea
 implementation by just implementing a new Backbone.Sync method. Look for example at the
 [localStorage Backbone.js Sync implementation][22].
 
+## Content repositories
+
+The purpose of the content repository layer is to separate the server side business logic from the actual storage. By
+doing this it becomes possible to reuse the same business logic with radically different storage implementations. For
+example a CMS like Drupal that is used from very small sites to some of the biggest CMS sites in the world faces a
+difficult challenge in trying to find an optimal solution for all user groups. In the end the storage layer ends up
+being a compromise rather than an optimal solution for each target group. If Drupal would leverage a clearly defined
+storage API, ideally based on an independent standard like [PHPCR][1], users would be able to choose the implementation
+that best fits their scalability requirements that also match the available hardware and software infrastructure.
+
+For example smaller sites might choose to use SQLite for persistence, while a larger site might prefer to leverage
+a solution like [Jackrabbit][2]. Yet other sites might prefer using the file system for persistence but want to hook
+in a full text search indexing solution like [Solr][3] or [ElasticSearch][4]. The key thing is that any of these choices
+should only require changes in the configuration, but not in any actual business logic. Via a feature discovery API
+the business logic can automatically adjust itself to leverage optional features.
+
 ## New possibilities for collaboration
 
 Once the different Content Management Systems describe their content with RDFa, and provide an unified JavaScript API to
@@ -76,13 +92,14 @@ that was able to edit and save content with multiple CMSs. Then there was the [A
 some particular server-side protocol. The advantage of the approach promoted here is that the only server-side change
 needed is adding RDFa annotations to HTML templates, and then the rest happens on JavaScript level.
 
-The new CMS interface we've built for Midgard2 already uses these concepts. Now here in the
-[Aloha Editor Developer conference][30] we're [talking with][31] Drupal and TYPO3 developers about rolling out the same
-ideas in their systems. Other systems and projects are also more than welcome to participate.
+In the same way once a CMS is using a content repository it suddenly becomes possible to collaborate on its
+implementation with other projects, thereby increasing the choices for users and reducing the required development
+resources from each project.
 
-The work is underway to generalize the RDFa-Backbone.js bridge I originally wrote for Midgard Create. You can
-[find it on GitHub][32]. We're currently experimenting with it on both Midgard2 and TYPO3.
-
+ [1]: http://phpcr.github.com
+ [2]: http://jackrabbit.apache.org/
+ [3]: http://lucene.apache.org/solr/
+ [4]: http://www.elasticsearch.org/
  [14]: http://bergie.iki.fi/files/1e03f6a7c83d8dc3f6a11e0a60db5207a8570387038_cms-decoupled-communications.png "cms-decoupled-communications.png"
  [15]: http://microformats.org/
  [16]: http://dev.w3.org/html5/md/
@@ -99,6 +116,3 @@ The work is underway to generalize the RDFa-Backbone.js bridge I originally wrot
  [27]: http://www.atomenabled.org/developers/protocol/
  [28]: http://bergie.iki.fi/blog/neutron_protocol-separating_ui_from_the_cms/
  [29]: http://en.wikipedia.org/wiki/Content_Management_Interoperability_Services
- [30]: http://aloha-editor.org/wiki/Aloha_Editor_Dev_Con_11
- [31]: http://twitter.com/berit_jensen/status/40381611824381952
- [32]: https://github.com/bergie/VIE
