@@ -5,6 +5,6 @@ title: Show cases
 
 # Show cases
 
-*   [Symfony CMF][1]
+*   [Symfony CMF demo][1]
 
  [1]: http://cmf.liip.ch/

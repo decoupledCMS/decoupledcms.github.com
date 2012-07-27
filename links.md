@@ -13,16 +13,24 @@ title: Further Reading
 *   [Aloha Editor][4]
 *   [Backbone.js][5]
 
-## Content repositories
+## Content repository specifications
 
 *   [JCR][6]
 *   [CMIS][7]
 *   [PHPCR][8]
 
-## Other
+## Semantic serialization formats
 
 *   [RDFa][9]
+*   [JSON-LD][11]
+*   [Microformats][12]
+*   [Microdata][13]
+*   [Schema.org][14]
+
+## Other
+
 *   [Stanbol][9]
+*   [createphp][15]
 
  [1]: http://createjs.org/
  [2]: http://viejs.org/
@@ -34,3 +42,8 @@ title: Further Reading
  [8]: http://phpcr.github.com/
  [9]: http://rdfa.info/
  [10]: http://incubator.apache.org/stanbol/
+ [11]: http://json-ld.org
+ [12]: http://microformats.org/
+ [13]: http://dev.w3.org/html5/md/
+ [14]: http://schema.org
+ [15]: http://github.com/flack/createphp

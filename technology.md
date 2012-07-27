@@ -51,10 +51,10 @@ objectInstance.save(null, {
 });
 {% endhighlight %}
 
-This JS would work across all the different CMS implementations. Backbone.js provides a[ quite nice RESTful
+This JS would work across all the different CMS implementations. Backbone.js provides a [quite nice RESTful
 implementation][21] of communicating with the server with JSON, but it can be easily overridden with CMS-specific
 implementation by just implementing a new Backbone.Sync method. Look for example at the
-[localStorage Backbone.js Sync implementation][22].
+[localStorage Backbone.js sync implementation][22].
 
 ## Content repositories
 
@@ -96,7 +96,7 @@ There have been prior efforts at doing something similar. In the early 2000s, [O
 that was able to edit and save content with multiple CMSs. Then there was the [Atom Publishing Protocol][27] and the
 [Neutrol Protocol][28] efforts, and also [CMIS][29]. But all of these mandated that the systems would have to implement
 some particular server-side protocol. The advantage of the approach promoted here is that the only server-side change
-needed is adding RDFa annotations to HTML templates, and then the rest happens on JavaScript level.
+needed is adding RDFa annotations to HTML templates, and then the rest happens on the JavaScript level.
 
  [1]: http://phpcr.github.com
  [2]: http://jackrabbit.apache.org/
