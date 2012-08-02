@@ -5,6 +5,12 @@ title: Further Reading
 
 # Links
 
+## Related publications
+
+* [zeapartners.org][16]
+* [gadgetopia.com][17]
+* [optaros.com][18]
+
 ## Web editing components
 
 *   [create.js][1]
@@ -47,3 +53,6 @@ title: Further Reading
  [13]: http://dev.w3.org/html5/md/
  [14]: http://schema.org
  [15]: http://github.com/flack/createphp
+ [16]: http://www.zeapartners.org/events/0303/oscomsprintzurich/
+ [17]: http://gadgetopia.com/post/7206
+ [18]: http://www.optaros.com/blogs/web-content-management-evolved
