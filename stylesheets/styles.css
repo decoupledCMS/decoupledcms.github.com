@@ -33,7 +33,7 @@ h3, h4, h5, h6 {
 
 a {
   color:#3371cc;
-  font-weight:400;
+  font-weight:600;
   text-decoration:none;
 }
 
@@ -142,6 +142,7 @@ header ul a {
   text-align:center;
   padding-top:6px;
   height:40px;
+  font-weight:600;
 }
 
 strong {
