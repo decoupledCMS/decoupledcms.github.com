@@ -33,7 +33,7 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#3371cc;
   font-weight:400;
   text-decoration:none;
 }
@@ -138,7 +138,7 @@ header li {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#504e4e;
   display:block;
   text-align:center;
   padding-top:6px;
