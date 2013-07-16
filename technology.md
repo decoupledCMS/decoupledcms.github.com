@@ -98,7 +98,7 @@ device). As such it is important to realize that just because one is using Javas
 for editing, it is not necessary to use a WYSIWIG approach. In this sense even when using tools like [create.js][30] it
 might still make sense to explicitly not use inline editing or use inline editing without WYSIWIG. As such the concepts
 described on this page obviously apply to not only editing in the frontend but also editing in a backend system. For
-example a key advantage to using inline editing over form based, specifically "<textarea>" form fields, is that many
+example a key advantage to using inline editing over form based, specifically ``textarea`` form fields, is that many
 users find it needlessly constraining to use a fixed size field for editing when in the end the content on the pages
 is allowed to flow freely. Furthermore browsers still lack many widgets f.e. for maps, dates and more application
 specific content. However it should be noted that the key here is decoupling and not the specific representation of

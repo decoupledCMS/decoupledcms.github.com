@@ -1,4 +1,3 @@
-auto: true
 pygments: true
 
 url: http://decoupledCMS.org
@@ -9,8 +8,6 @@ language: en-US
 permalink: /news/:year-:month-:day-:title.html
 
 future: false
-auto: true
-server: true
 
 sitemap: ["/index.html"]
 
