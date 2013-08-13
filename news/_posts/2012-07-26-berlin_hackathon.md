@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Create.js hackathon in Berlin
 archive: active
 tags: createjs, createphp
 ---
