@@ -5,7 +5,9 @@ archive: active
 tags: createjs, createphp
 ---
 
-Last week we at [IKS][1] organized a two-day hackathon for developers interested in [Create.js][2], [VIE][3], and in new tools for
+# Create.js hackathon in Berlin
+
+Last week we at [IKS][1] organized a two-day hackathon for developers interested in [create.js][2], [VIE][3], and in new tools for
 editing websites semantically.
 
 The original agenda for the event can be found from the [event's wiki page][4] and a [summary of the results][5] can be found here.
