@@ -30,7 +30,7 @@ A much better picture would be something like the following:
 In this scenario, the concept of Content Management is decoupled. There is a [content repository][4] that manages
 content models and how to store them. This could be something like [JCR][5], [PHPCR][6], [CouchDB][7] or [Midgard2][8].
 Then there is a web framework, responsible of matching URL requests to particular content and generating corresponding
-web pages. This could be [Drupal][9], [Flow3][10], [Django][11], [CodeIgniter][12], [Midgard MVC][13], or something
+web pages. This could be [Drupal][9], TYPO3 [Flow][10] or [Neos][11], [Django][12], [CodeIgniter][13], [Midgard MVC][14], or something
 similar. And finally there is the web editing tool. The web editing tool provides an interface for managing contents of
 the web pages. This includes features like rich text editing, workflows and image handling.
 
@@ -47,7 +47,8 @@ user as part of the generated web pages. But with modern browsers you could thro
  [7]: http://couchdb.apache.org/
  [8]: http://www.midgard-project.org/midgard2/
  [9]: http://drupal.org/
- [10]: http://flow3.typo3.org/
- [11]: http://www.djangoproject.com/
- [12]: http://codeigniter.com/
- [13]: https://github.com/bergie/midgardmvc_core/blob/master/documentation/index.markdown
+ [10]: http://flow.typo3.org/
+ [11]: http://neos.typo3.org/
+ [12]: http://www.djangoproject.com/
+ [13]: http://codeigniter.com/
+ [14]: https://github.com/bergie/midgardmvc_core/blob/master/documentation/index.markdown
