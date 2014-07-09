@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Further Reading
+published: true
 ---
 
 # Links
@@ -10,6 +11,7 @@ title: Further Reading
 * [zeapartners.org][16]
 * [gadgetopia.com][17]
 * [optaros.com][18]
+* [nytimes.com][19]
 
 ## Web editing components
 
@@ -56,3 +58,4 @@ title: Further Reading
  [16]: http://www.zeapartners.org/events/0303/oscomsprintzurich/
  [17]: http://gadgetopia.com/post/7206
  [18]: http://www.optaros.com/blogs/web-content-management-evolved
+ [19]: http://open.blogs.nytimes.com/2014/06/17/scoop-a-glimpse-into-the-nytimes-cms/?_php=true&_type=blogs&_php=true&_type=blogs&_r=1
