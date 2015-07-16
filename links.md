@@ -8,10 +8,8 @@ published: true
 
 ## Related publications
 
-* [zeapartners.org][16]
-* [gadgetopia.com][17]
-* [optaros.com][18]
-* [nytimes.com][19]
+* [gadgetopia.com][15]
+* [nytimes.com][16]
 
 ## Web editing components
 
@@ -32,13 +30,13 @@ published: true
 *   [RDFa][9]
 *   [JSON-LD][11]
 *   [Microformats][12]
-*   [Microdata][13]
-*   [Schema.org][14]
+*   [Microdata][17]
+*   [Schema.org][13]
 
 ## Other
 
 *   [Stanbol][9]
-*   [createphp][15]
+*   [createphp][14]
 
  [1]: http://createjs.org/
  [2]: http://viejs.org/
@@ -52,10 +50,8 @@ published: true
  [10]: http://incubator.apache.org/stanbol/
  [11]: http://json-ld.org
  [12]: http://microformats.org/
- [13]: http://dev.w3.org/html5/md/
- [14]: http://schema.org
- [15]: http://github.com/flack/createphp
- [16]: http://www.zeapartners.org/events/0303/oscomsprintzurich/
- [17]: http://gadgetopia.com/post/7206
- [18]: http://www.optaros.com/blogs/web-content-management-evolved
- [19]: http://open.blogs.nytimes.com/2014/06/17/scoop-a-glimpse-into-the-nytimes-cms/?_php=true&_type=blogs&_php=true&_type=blogs&_r=1
+ [13]: http://schema.org
+ [14]: http://github.com/flack/createphp
+ [15]: http://gadgetopia.com/post/7206
+ [16]: http://open.blogs.nytimes.com/2014/06/17/scoop-a-glimpse-into-the-nytimes-cms/?_php=true&_type=blogs&_php=true&_type=blogs&_r=1
+ [17]: http://www.w3.org/TR/microdata/
