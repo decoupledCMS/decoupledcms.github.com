@@ -47,7 +47,7 @@ user as part of the generated web pages. But with modern browsers you could thro
  [7]: http://couchdb.apache.org/
  [8]: http://www.midgard-project.org/midgard2/
  [9]: http://drupal.org/
- [10]: http://neos.io/
+ [10]: https://www.neos.io/
  [11]: http://www.djangoproject.com/
  [12]: http://codeigniter.com/
  [13]: https://github.com/bergie/midgardmvc_core/blob/master/documentation/index.markdown
