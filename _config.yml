@@ -1,4 +1,4 @@
-pygments: true
+highlighter: pygments
 
 url: http://decoupledCMS.org
 title: Decoupling Content Management
