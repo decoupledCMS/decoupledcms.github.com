@@ -117,7 +117,7 @@ needed is adding RDFa annotations to HTML templates, and then the rest happens o
  [2]: http://jackrabbit.apache.org/
  [3]: http://lucene.apache.org/solr/
  [4]: http://www.elasticsearch.org/
- [14]: http://bergie.iki.fi/files/1e03f6a7c83d8dc3f6a11e0a60db5207a8570387038_cms-decoupled-communications.png "cms-decoupled-communications.png"
+ [14]: http://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e03f6a7c83d8dc3f6a11e0a60db5207a8570387038_cms-decoupled-communications.png "cms-decoupled-communications.png"
  [15]: http://microformats.org/
  [16]: http://dev.w3.org/html5/md/
  [17]: http://en.wikipedia.org/wiki/RDFa
