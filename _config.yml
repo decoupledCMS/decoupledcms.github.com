@@ -1,5 +1,3 @@
-highlighter: pygments
-
 url: http://decoupledCMS.org
 title: Decoupling Content Management
 description: The concept of the decoupled CMS envisions a clean separation in web editing UIs, web frameworks and content repositories
