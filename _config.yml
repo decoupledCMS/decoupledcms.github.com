@@ -9,4 +9,4 @@ future: false
 
 sitemap: ["/index.html"]
 
-exclude: ["README.md"]
+exclude: ["README.md", "vendor"]
