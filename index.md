@@ -38,9 +38,9 @@ The web editing tools have traditionally been part of the web framework, the fra
 user as part of the generated web pages. But with modern browsers you could throw forms out of the window and just
 [make pages editable][2] as they are.
 
- [1]: http://bergie.iki.fi/files/1e03f6a5bcbe4223f6a11e0a60db5207a8570387038_cms-monolithic-approach.png "cms-monolithic-approach.png"
+ [1]: http://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e03f6a5bcbe4223f6a11e0a60db5207a8570387038_cms-monolithic-approach.png "cms-monolithic-approach.png"
  [2]: http://aloha-editor.org/
- [3]: http://bergie.iki.fi/files/1e03f6a6cfe27003f6a11e0a60db5207a8570387038_cms-decoupled-approach.png "cms-decoupled-approach.png"
+ [3]: http://s3.eu-central-1.amazonaws.com/bergie-iki-fi/1e03f6a6cfe27003f6a11e0a60db5207a8570387038_cms-decoupled-approach.png "cms-decoupled-approach.png"
  [4]: http://bergie.iki.fi/blog/why_you_should_use_a_content_repository_for_your_application/
  [5]: http://jackrabbit.apache.org/
  [6]: https://fosswiki.liip.ch/display/jackalope/Home
@@ -50,4 +50,4 @@ user as part of the generated web pages. But with modern browsers you could thro
  [10]: https://www.neos.io/
  [11]: http://www.djangoproject.com/
  [12]: http://codeigniter.com/
- [13]: https://github.com/bergie/midgardmvc_core/blob/master/documentation/index.markdown
+ [13]: http://midgard-project.org/midgardmvc/
