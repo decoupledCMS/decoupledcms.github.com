@@ -123,8 +123,8 @@ needed is adding RDFa annotations to HTML templates, and then the rest happens o
  [17]: http://en.wikipedia.org/wiki/RDFa
  [18]: http://bergie.iki.fi/blog/using_rdfa_to_make_a_web_page_editable/
  [19]: http://bergie.iki.fi/blog/google-s_rich_snippets_will_lead_us_into_semantic_web/
- [20]: http://documentcloud.github.com/backbone/
- [21]: http://documentcloud.github.com/backbone/#Sync
+ [20]: http://backbonejs.org
+ [21]: http://backbonejs.org/#Sync
  [22]: https://github.com/jasondavies/Backbone.localStorage/blob/master/backbone.localStorage.js
  [23]: http://wave-protocol.googlecode.com/hg/whitepapers/operational-transform/operational-transform.html
  [24]: http://incubator.apache.org/stanbol/
